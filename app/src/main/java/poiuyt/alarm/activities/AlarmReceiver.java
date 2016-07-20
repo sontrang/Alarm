@@ -28,7 +28,6 @@ public class AlarmReceiver extends WakefulBroadcastReceiver {
         LogUtils.d("Alarm Received");
         this.context = context;
         LogUtils.d(intent.getBooleanExtra("Alo", false) + "Test EveryWhere");
-
         Uri alarmUri = RingtoneManager
                 .getDefaultUri(RingtoneManager.TYPE_ALARM);
 
