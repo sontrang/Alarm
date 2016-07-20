@@ -10,10 +10,6 @@ import poiuyt.alarm.R;
 
 public class AlarmOffActivity extends Activity{
 
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
